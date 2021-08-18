@@ -1,24 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react'
 import logo from './logo.svg';
 import './App.css';
+import { Preview } from './Preview'
+
+const DEFAULT_MD = '|left|center|right|\n|:-|:-:|-:|\n|**left**|[center](https://example.com)|right|'
 
 function App() {
+  const [md, setMd] = useState((DEFAULT_MD))
+  const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setMd(e.target.value)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="text-center"><h1>Minute Playground</h1></div>
+      <div className='container flex flex-row h-screen'>
+        <textarea className='w-1-2 h-full' onChange={handleChange} value={md} />
+        <Preview className='w-1/2 h-full p-4' md={md} />
+      </div>
     </div>
   );
 }
