@@ -5,17 +5,17 @@
     "main.js.map": "/minute-playground/static/js/main.28bbccff.chunk.js.map",
     "runtime-main.js": "/minute-playground/static/js/runtime-main.d1667837.js",
     "runtime-main.js.map": "/minute-playground/static/js/runtime-main.d1667837.js.map",
-    "static/js/2.089eec96.chunk.js": "/minute-playground/static/js/2.089eec96.chunk.js",
-    "static/js/2.089eec96.chunk.js.map": "/minute-playground/static/js/2.089eec96.chunk.js.map",
+    "static/js/2.dbdafed1.chunk.js": "/minute-playground/static/js/2.dbdafed1.chunk.js",
+    "static/js/2.dbdafed1.chunk.js.map": "/minute-playground/static/js/2.dbdafed1.chunk.js.map",
     "static/js/3.a56ddc9c.chunk.js": "/minute-playground/static/js/3.a56ddc9c.chunk.js",
     "static/js/3.a56ddc9c.chunk.js.map": "/minute-playground/static/js/3.a56ddc9c.chunk.js.map",
     "index.html": "/minute-playground/index.html",
     "static/css/main.5cc58097.chunk.css.map": "/minute-playground/static/css/main.5cc58097.chunk.css.map",
-    "static/js/2.089eec96.chunk.js.LICENSE.txt": "/minute-playground/static/js/2.089eec96.chunk.js.LICENSE.txt"
+    "static/js/2.dbdafed1.chunk.js.LICENSE.txt": "/minute-playground/static/js/2.dbdafed1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d1667837.js",
-    "static/js/2.089eec96.chunk.js",
+    "static/js/2.dbdafed1.chunk.js",
     "static/css/main.5cc58097.chunk.css",
     "static/js/main.28bbccff.chunk.js"
   ]
