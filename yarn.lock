@@ -7313,10 +7313,10 @@ minizlib@^2.1.1:
     minipass "^3.0.0"
     yallist "^4.0.0"
 
-minutemd@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/minutemd/-/minutemd-1.1.5.tgz#6a25e3a88acaa85528fb3553632761811b49cd75"
-  integrity sha512-uWIhZEmcvwLiDn8ncNHp425iprRaxvaYfQHmOnlVTeU/N8dLMaF4aRS1L6DJB/RllolEgaKHQFW2QkZJYvHAmw==
+minutemd@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/minutemd/-/minutemd-1.1.6.tgz#d7025cc07a3757554a9d8c143e9e2dc8b3dac902"
+  integrity sha512-VTs08vl+ynMXnys0ji72yd3ctGNrBZq2+JvwkelwZVZvxkAN4j7RDb+KGPpNNIUMHjRRaCWhUGxPkqPRSJ1uJw==
 
 mississippi@^3.0.0:
   version "3.0.0"
